@@ -61,7 +61,8 @@ Kali (Attacker) → SafeLine WAF (Ubuntu) → DVWA (Kali)
 ## Results
 Once configured, SafeLine WAF successfully detected and blocked multiple attacks including:  
 - SQL Injection payloads  
-- Cross-Site Scripting (XSS) attempts  
+- Authentication
+- Custom Deny Rules (blockng Kali IP)
 - HTTP Flood simulations  
 
 ---
